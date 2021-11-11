@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.container{
+    max-width: 1105px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-li{
+    display: inline-block;
+}
+
+.nsv-link{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #FA4A0C;
+}
+
+.nav-li:not(:last-of-type){
+    margin-right: 100px;
+}
+
+.app{
+    background-image: url('../img/bg1.png');
+    color: white;
+    text-align: center;
+    padding: 80px 0 162px;
+    margin-bottom: 56px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.app-pre-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.app-title{
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    max-width: 650px;
+    margin: 10px auto;
+}
+
+.app-text{
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 54px;
+}
+
+.button{
+    width: 236px;
+    height: 68px;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.button:first-of-type{
+    background-color:  #FA4A0C;
+    border: 1px solid #FA4A0C;
+    margin-right: 67px;
+}
+
+.button:last-of-type{
+    background: none;
+    border: 1px solid white;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px; 
+    text-align: center;
+    margin: 56px 0 70px;
+}
+
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 110px;
+}
+
+.mobile-pre-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FA4A0C;
+        
+}
+
+.mobile-title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    max-width: 560px;
+}
+
+.mobile-text{
+    font-size: 24px;
+    line-height: 38px;
+    color: #737373;
+    max-width: 400px;
+}
+
+.mobile-title-2{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    max-width: 480px;
+}
+
+.app-2{
+    background-image: url('../img/bg2.png');
+    color: white;
+    text-align: center;
+    margin: 142px 0;
+    padding: 80px 0 162px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.app-pre-title-2{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+}
+
+.app-text-2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 20px;
+}
+
+.button-2{
+    height: 60px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 59px;
+}
+
+.button-2:first-of-type{
+    background-color:  #FA4A0C;
+    width: 142px;
+    border: 1px solid #FA4A0C;
+    margin-right: 16px;
+}
+
+.button-2:last-of-type{
+    background: none;
+    width: 173px;
+    border: 1px solid white
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40 px auto;
+}
+
+
+
+
+
+
